@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d91a1650-6003-49c4-b939-2b72b34dc4bb}</ProjectGuid>
-    <RootNamespace>Study</RootNamespace>
+    <ProjectGuid>{7dc1bed5-a2ec-4346-a081-5eb1c02c9107}</ProjectGuid>
+    <RootNamespace>Node</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,7 +104,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,13 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EngineFile.cpp" />
-    <ClCompile Include="FightUnit.cpp" />
-    <ClCompile Include="Study.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="EngineFile.h" />
-    <ClInclude Include="FightUnit.h" />
+    <ClCompile Include="Node.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
